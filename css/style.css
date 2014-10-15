@@ -2,19 +2,160 @@
    PAGE LOGIN 
 ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
 html {
     font-size: 14px;
     line-height: 1.4;
+    color: #444;
+    font-family: 'Raleway', Arial; 
+}
+.container {
+    width: 970px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#header {
+    background-color: #00baff; 
+}
+#header #logo {
+    padding: 30px 0;
+    text-align: center;
+}
+#header #logo a {
+    display: inline-table;
+}
+#MainBox #logoUCN {
+    padding: 30px 0;
+    text-align: center;
+}
+#MainBox #logoUCN a {
+    display: inline-table;
+}
+#MainBox #LoginBox {
+    width: 440px;
+    height: 220px;
+    display: table;
+    background-color: #ddd;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+#footer {
+    background-color: #242424;
+    padding: 30px 0 10px;
+}
+#footer:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;  
+}
+#footer .row {
+    display: table;
+
+}
+#footer .column {
+    width: 242px;
+    float: left;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */ }
+}
+#footer  ul {
+    list-style: none;
+    text-align: left;
+}
+#footer  ul li.heading {
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #436888;
+    padding-bottom:  8px;
+    margin-bottom: 20px;
+}
+#footer  ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+    border-bottom: 1px solid #363636;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+#footer  ul li:last-child {
+    border-bottom: none;
+}
+#footer  ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#footer  ul li a:hover {
+   color:#00baff; 
+}
+#footer .copyright {
+    display: block;
+    width:100%;
+    color: #fff;
+    font-size: 11px;
+    padding: 0 10px;
+    border-top: 1px solid #363636;
+}
+#footer .copyright:after {
+     content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;  
 }
 
-#header {
-    background-color:  
+#footer .left   {
+    float: left;
+    display: block;
+    width: 50%;
+}
+#footer .right   {
+    float: right;
+    display: block;
+    width: 50%;
+    text-align: right;
+}
+#footer .left a {
+    color: #00baff;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   PAGE  
+========================================================================== */
+#header-page {
+    background-color: #00baff; 
+    padding: 30px 20px;
+}
+#header-page:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#header-page  .left   {
+    float: left;
+    display: block;
+    width: 50%;
+}
+#header-page  .right   {
+    float: right;
+    display: block;
+    width: 50%;
+    text-align: right;
+}
+#header-page #logo a, #header-page #logoUCN2 a  {
+    display: inline-table;
 }
