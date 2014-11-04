@@ -27,7 +27,7 @@ ul {
     background-color: #00baff; 
 }
 #header #logo {
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
 }
 #header #logo a {
@@ -52,11 +52,8 @@ ul {
 #footer {
     background-color: #242424;
     padding: 30px 0 10px;
-    position: absolute;
-    bottom: 0;
     display: block;
     width: 100%;
-    left: 0;
 }
 #footer:after {
     content: ".";
@@ -107,6 +104,27 @@ ul {
 #footer  ul li a:hover {
    color:#00baff; 
 }
+#footer .llamado {
+    text-align: center;
+    display: block;
+    padding: 10px 0 20px;
+}
+#footer .llamado a {
+    text-decoration: none;
+    color: #00baff;
+    font-size: 16px;
+    padding: 10px;
+}
+#footer .llamado a:hover {
+    color: #fff;
+    background-color: #00baff;
+    padding: 10px;
+    border-radius: 2px;
+}
+#footer .llamado a i {
+    color: #fff;
+    margin-right: 10px; 
+}
 #footer .copyright {
     display: block;
     width:100%;
@@ -145,7 +163,7 @@ ul {
 ========================================================================== */
 #header-page {
     background-color: #00baff; 
-    padding: 30px 20px;
+    padding: 20px;
 }
 #header-page:after {
     content: ".";
